@@ -23,10 +23,10 @@ definePageMeta({
     </div>
 
       <div class="mt-16 grid lg:grid-cols-2 place-items-center mx-auto max-w-4xl">
-        <div>
+        <div class="">
           <p class="text-xl text-center mb-4">1. Code change</p>
         </div>
-        <div>
+        <div class="mb-8">
           <img
               class="rounded-md"
               src="/assets/img/typing-cat.gif"
@@ -37,7 +37,7 @@ definePageMeta({
               height="400"
           />
         </div>
-          <div>
+          <div class="order-last">
             <img
                 class="rounded-md"
                 src="/assets/img/git-push2.jpg"

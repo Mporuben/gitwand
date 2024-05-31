@@ -10,7 +10,7 @@ definePageMeta({
       <template v-slot:title>Сurrent method of upload page</template>
     </LandingSectionhead>
     <LandingRainEffect />
-    <div class="grid lg:grid-cols-2 mt-16 place-items-center">
+    <div class="grid lg:grid-cols-2 mt-16 place-items-center pr-5 pl-5 lg:pr-0 lg:pl-0">
       <img
           class="rounded-md"
           src="../assets/img/image1.jpg"
@@ -39,6 +39,7 @@ definePageMeta({
           height="512"
       />
         </div>
+        <div class="m-2 font-medium text-lg lg:hidden">2. Git push</div>
         <div class="m-2">
           <img
             class="rounded-md"
@@ -50,7 +51,7 @@ definePageMeta({
             height="512"
         />
         </div>
-        <div class="m-2 font-medium text-lg">2. Git push</div>
+        <div class="m-2 font-medium text-lg hidden lg:flex">2. Git push</div>
         <div class="m-2 font-medium text-lg">3. Npm run build</div>
         <div class="m-2">
           <img
@@ -63,6 +64,10 @@ definePageMeta({
             class="rounded-md"
         />
           </div>
+        <div class="mb-2 text-lg lg:hidden">
+          4. Logging into FTP service (e.g., FileZilla)<br>
+          5. Replacement of old files with the new ones.
+        </div>
         <div class="m-2">
           <img
               src="~/assets/img/login-to-aftp.png"
@@ -75,7 +80,7 @@ definePageMeta({
           />
         </div>
         <div class="m-2 font-medium flex flex-col items-center">
-          <div class="mb-2 text-lg">
+          <div class="mb-2 text-lg hidden lg:flex">
           4. Logging into FTP service (e.g., FileZilla)<br>
           5. Replacement of old files with the new ones.
           </div>
